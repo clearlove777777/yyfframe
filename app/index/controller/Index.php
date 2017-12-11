@@ -42,6 +42,7 @@ class Index extends Controller
 		//View::fetch();
 		//用于测试分离变量的变量
 		//$a='nish';
+		
 		//实例化调用分离变量并加载模板的方法with和fetch
 		//(new View())->with('a',$a)->fetch('index');
 
