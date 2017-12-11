@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0379d584-b6f3-4ec3-a8de-a9cad5e2731c" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/model/Stu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yyf/core/Yyf.php" afterPath="$PROJECT_DIR$/yyf/core/Yyf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yyf/model/Base.php" afterPath="$PROJECT_DIR$/yyf/model/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yyf/model/Model.php" afterPath="$PROJECT_DIR$/yyf/model/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yyf/view/Base.php" afterPath="$PROJECT_DIR$/yyf/view/Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/yyfframe.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index/controller/Index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -434,15 +438,15 @@
       <workItem from="1512606413223" duration="2146000" />
       <workItem from="1512619677847" duration="6465000" />
       <workItem from="1512693668164" duration="5468000" />
-      <workItem from="1512952139294" duration="1867000" />
+      <workItem from="1512952139294" duration="2465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31524000" />
+    <option name="totallyTimeSpent" value="32122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1038" extended-state="1" />
+    <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14324324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
