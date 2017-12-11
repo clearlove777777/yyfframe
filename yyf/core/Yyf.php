@@ -16,6 +16,8 @@ class Yyf
 
 	public static function index ()
 	{
+		//处理错误
+		self::handler();
 		//1.测试能不能调用方法
 
 		//    echo 1;
@@ -25,6 +27,12 @@ class Yyf
 		//3.自动实例化
 		self::autorun ();
 
+	}
+	//错误异常处理
+	public static function handler(){
+		$whoops = new \Whoops\Run;
+		$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+		$whoops->register();
 	}
 
 	private static function init ()

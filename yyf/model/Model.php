@@ -25,7 +25,8 @@ class Model
 
 	}
 	public static function load($name , $arguments ){
-		return call_user_func_array([new Base(),$name],$arguments);
+		$class=get_called_class();
+		return call_user_func_array([new Base($class),$name],$arguments);
 
 	}
 

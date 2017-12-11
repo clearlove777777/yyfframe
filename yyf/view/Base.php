@@ -12,6 +12,7 @@ namespace yyf\view;
 class Base
 {
 	public $data=[];
+	public $file='';
 	/**
 	 * @param string $var 变量名
 	 * @param        $val 变量值
@@ -36,11 +37,19 @@ class Base
 		//如果传入参数，那就加载传入的模板，如果没有就加载当前方法的模板
 		$tpl=$tpl?$tpl:ACTION;
 		//dd($tpl);
-		include '../app/'.MODULE.'/view/'.strtolower(CONTROLLER).'/'.$tpl.'.'.c('view','suffix');
+		$this->file='../app/'.MODULE.'/view/'.strtolower(CONTROLLER).'/'.$tpl.'.'.c('view','suffix');
+		include $this->file;
 		return $this;
 	}
-
-
+	public function __toString ()
+	{
+		//把数组键名转成变量名，键值转成变量值(生成变量)
+		extract($this->data);
+		//加载模板
+		include $this->file;
+		// TODO: Implement __toString() method.
+		return '';
+	}
 
 
 }
