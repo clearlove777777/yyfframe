@@ -22,6 +22,7 @@ class Index extends Controller
 
 	public function index ()
 	{
+<<<<<<< HEAD
 		//测试能否使用
 		//echo 1;
 		//测试模型类，数据库连接正常，查询语句使用正常
@@ -32,10 +33,14 @@ class Index extends Controller
 		//dd(Stu::where('age>19')->order('age,desc')->getAll());
 		//dd(Stu::q('select * from stu'));
 		View::fetch();
+=======
+		
+>>>>>>> f65947fb64614f860b4a4069a3f1930659f763cf
 
 
 	}
 
+<<<<<<< HEAD
 	public function add ()
 	{
 		//静态调用
@@ -45,7 +50,8 @@ class Index extends Controller
 		
 		//实例化调用分离变量并加载模板的方法with和fetch
 		//(new View())->with('a',$a)->fetch('index');
+=======
+>>>>>>> f65947fb64614f860b4a4069a3f1930659f763cf
 
-	}
 
 }
