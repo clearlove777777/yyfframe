@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0379d584-b6f3-4ec3-a8de-a9cad5e2731c" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index/controller/Index.php" afterPath="$PROJECT_DIR$/app/index/controller/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,6 +111,7 @@
         <option value="$PROJECT_DIR$/system/model/Stu.php" />
         <option value="$PROJECT_DIR$/yyf/model/Base.php" />
         <option value="$PROJECT_DIR$/app/index/controller/Index.php" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
       </list>
     </option>
   </component>
@@ -286,12 +287,12 @@
       <workItem from="1512606413223" duration="2146000" />
       <workItem from="1512619677847" duration="6465000" />
       <workItem from="1512693668164" duration="5468000" />
-      <workItem from="1512952139294" duration="3187000" />
+      <workItem from="1512952139294" duration="3284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32844000" />
+    <option name="totallyTimeSpent" value="32941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
@@ -329,18 +330,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="e#119#140#0#PHP" expanded="true" />
-            <marker date="1512958021055" expanded="true" signature="375:392" ph="select * fro... tag" />
-            <marker date="1512958021055" expanded="true" signature="546:563" ph="select * fro... stu" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yyf/model/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -773,6 +762,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
