@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0379d584-b6f3-4ec3-a8de-a9cad5e2731c" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-    </list>
+    <list default="true" id="0379d584-b6f3-4ec3-a8de-a9cad5e2731c" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -287,15 +285,15 @@
       <workItem from="1512606413223" duration="2146000" />
       <workItem from="1512619677847" duration="6465000" />
       <workItem from="1512693668164" duration="5468000" />
-      <workItem from="1512952139294" duration="3284000" />
+      <workItem from="1512952139294" duration="3632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32941000" />
+    <option name="totallyTimeSpent" value="33289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
+    <frame x="-8" y="0" width="1924" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14324324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
